@@ -168,4 +168,8 @@ a {
 		margin: 0 auto;
 		padding: 23px;
 	}
+
+	.image-container {
+		margin-left: -40px;
+	}
 }
