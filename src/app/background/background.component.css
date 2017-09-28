@@ -24,7 +24,22 @@ html, body {
     width: 0px;
     background: transparent;
 }
+p.awardName {
+	margin-top: 0px;
+	color: #F07D00;
+	font-size: 22px;
+	width:250px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
 
+p.awardBlurb {
+	color: black;
+	font-size: 16px;
+	width:250px;
+	text-align: center;
+}
 .event {
 	background-color: #D93B20;
 }
@@ -521,13 +536,33 @@ footer.second p {
 	perspective: 800px;
 	text-align: center;
 }
+.logoContainer {
+	margin: auto;
+	margin-top: 10px;
+	width: 90px;
+	height: 60px;
+}
+.frontImage {
+	width: 300px;
+}
+.smallLogo {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.smallLogo:hover {
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #f07d00;
+	transition: .2s ease;
+}
 
 #card {
-	width: 100%;
+	width: 270px;
 	height: 400px;
 	position: absolute;
 	transform-style: preserve-3d;
 	transition: transform 1s;
+	border: 1px solid black;
 }
 
 #card figure {
